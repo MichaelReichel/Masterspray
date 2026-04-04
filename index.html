@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Masterspray | Professional Panelbeaters</title>
+    <title>Masterspray | 30 Years of Excellence in Windhoek</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,10 +13,12 @@
         <a href="#"><img src="Logo.png" alt="Masterspray Logo" class="logo"></a>
         <div class="nav-center">
             <a href="#">Home</a>
-            <a href="#">Services</a>
-            <a href="#">About</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
         </div>
-        <a href="#" class="quote-btn">Get a Quote</a>
+        <a href="#contact" class="quote-btn">Get a Quote</a>
     </nav>
 
     <!-- Hero Section -->
@@ -24,15 +26,48 @@
         <div class="hero-content">
             <h1>Welcome to Masterspray</h1>
             <p>Professional panel beating and spray painting for over 30 years.</p>
-            <a href="#" class="quote-btn hero-btn">Get a Quote</a>
+            <a href="#contact" class="quote-btn hero-btn">Get a Quote</a>
+        </div>
+    </section>
+
+    <!-- Insurance Partners (Approval Bar) -->
+    <section class="insurance-section">
+        <p class="insurance-label">Approved Repairer For All Major Insurers</p>
+        <div class="logo-cloud">
+            <!-- Replace these with your actual PNG files -->
+            <img src="hollard.png" alt="Hollard">
+            <img src="santam.png" alt="Santam">
+            <img src="old-mutual.png" alt="Old Mutual">
+            <img src="king-price.png" alt="King Price">
+            <img src="outsurance.png" alt="Outsurance">
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <span class="about-label">Established 1994</span>
+                <h2>30 Years of Namibian Craftsmanship</h2>
+                <p>Founded on the principles of precision and integrity, Masterspray has grown from a small local workshop into Windhoek's leading panelbeating destination.</p>
+                <p>We don't just fix cars; we restore peace of mind. Our team of certified technicians uses world-class technology to ensure every vehicle leaves our floor in factory condition.</p>
+                <div class="about-stats">
+                    <div class="stat"><strong>30+</strong><span>Years</span></div>
+                    <div class="stat"><strong>15k+</strong><span>Cars Fixed</span></div>
+                    <div class="stat"><strong>100%</strong><span>Quality Guarantee</span></div>
+                </div>
+            </div>
+            <div class="about-image">
+                <!-- Replace with a photo of your workshop or team -->
+                <img src="workshop.jpg" alt="Masterspray Workshop" class="rounded-img">
+            </div>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section class="services-section">
+    <section id="services" class="services-section">
         <h2>Our Services</h2>
         <div class="services-container">
-            <!-- Card 1 -->
             <div class="service-card">
                 <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 13.1V16c0 .6.4 1 1 1h2"></path>
@@ -43,7 +78,6 @@
                 <h3>Panel Beating</h3>
                 <p>Expert structural repairs to bring your car back to factory standards after an accident.</p>
             </div>
-            <!-- Card 2 -->
             <div class="service-card">
                 <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
@@ -54,7 +88,6 @@
                 <h3>Spray Painting</h3>
                 <p>Premium color matching and high-gloss finishes using the best quality paints.</p>
             </div>
-            <!-- Card 3 -->
             <div class="service-card">
                 <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.77 3.77z"></path>
@@ -62,7 +95,6 @@
                 <h3>Dent Removal</h3>
                 <p>Quick and affordable paintless dent removal for those annoying shopping trolley dings.</p>
             </div>
-            <!-- Card 4 -->
             <div class="service-card">
                 <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
@@ -123,10 +155,9 @@
         </div>
     </section>
 
-    <!-- Press / News Section -->
+    <!-- Press Section -->
     <section class="press-section">
         <h2>Masterspray in the News</h2>
-        <p class="section-subtitle">Leading the industry in quality and service for over 30 years.</p>
         <div class="press-container">
             <div class="press-card">
                 <div class="press-header">
@@ -141,66 +172,58 @@
                     <img src="republikein-logo.png" alt="Republikein Logo" class="press-logo">
                 </div>
                 <h3>Masterspray lei met gehalte</h3>
-                <p>Exploring how Masterspray continues to lead the Namibian panelbeating market through technical innovation and quality.</p>
+                <p>Exploring how Masterspray continues to lead the Namibian market through technical innovation and quality.</p>
                 <a href="https://www.republikein.com.na/nuus/masterspray-lei-met-gehalte" target="_blank" class="article-link">Read Full Story &rarr;</a>
             </div>
         </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <h2>Common Questions</h2>
+        <div class="faq-container">
+            <details>
+                <summary>Do you offer free repair quotes?</summary>
+                <p>Yes! You can visit our workshop for a free assessment, or send us photos via our "Get a Quote" system for a preliminary estimate.</p>
+            </details>
+            <details>
+                <summary>Do you work with my insurance company?</summary>
+                <p>We are an approved repairer for all major insurance companies in Namibia. We handle the claims process for you to make it stress-free.</p>
+            </details>
+            <details>
+                <summary>How long does a respray usually take?</summary>
+                <p>A high-quality respray typically takes 3 to 7 working days, depending on the car's size and the level of prep work required.</p>
+            </details>
+            <details>
+                <summary>Do you provide a warranty on paintwork?</summary>
+                <p>Absolutely. We offer a lifetime warranty on paint work, ensuring your car stays beautiful for years to come.</p>
+            </details>
+        </div>
+    </section>
+
     <!-- Contact Section -->
-    <section class="contact-section">
+    <section id="contact" class="contact-section">
         <div class="contact-container">
             <div class="contact-info">
                 <h2>Contact Us</h2>
-                <p>Need a repair or a custom paint job? Stop by the workshop or call us today.</p>
                 <div class="contact-details">
                     <div class="contact-item">
-                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                            <circle cx="12" cy="10" r="3"></circle>
-                        </svg>
-                        <div class="contact-text">
-                            <strong>Address</strong>
-                            <p>New Castle Street, Northern Industrial, Windhoek, Namibia</p>
-                        </div>
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        <div class="contact-text"><strong>Address</strong><p>New Castle Street, Windhoek, Namibia</p></div>
                     </div>
                     <div class="contact-item">
-                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                        </svg>
-                        <div class="contact-text">
-                            <strong>Phone</strong>
-                            <p><a href="tel:+26461215786">+264 61 215 786</a></p>
-                        </div>
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        <div class="contact-text"><strong>Phone</strong><p><a href="tel:+26461215786">+264 61 215 786</a></p></div>
                     </div>
                     <div class="contact-item">
-                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                            <polyline points="22,6 12,13 2,6"></polyline>
-                        </svg>
-                        <div class="contact-text">
-                            <strong>Email</strong>
-                            <p><a href="mailto:masterspray@iway.na">masterspray@iway.na</a></p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <polyline points="12 6 12 12 16 14"></polyline>
-                        </svg>
-                        <div class="contact-text">
-                            <strong>Hours</strong>
-                            <p>Mon - Fri: 8:00 AM - 5:00 PM</p>
-                        </div>
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        <div class="contact-text"><strong>Email</strong><p><a href="mailto:masterspray@iway.na">masterspray@iway.na</a></p></div>
                     </div>
                 </div>
                 <a href="tel:+26461215786" class="quote-btn">Call for Help</a>
             </div>
             <div class="contact-map">
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4170.246273612453!2d17.071792375884254!3d-22.520793824191284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c0b1cebcbb3dcaf%3A0x756db72b957a5586!2sMasterspray!5e1!3m2!1sen!2sza!4v1775234884039!5m2!1sen!2sza" 
-                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
-                </iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4170.246273612453!2d17.071792375884254!3d-22.520793824191284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c0b1cebcbb3dcaf%3A0x756db72b957a5586!2sMasterspray!5e1!3m2!1sen!2sza!4v1775234884039!5m2!1sen!2sza" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </section>
@@ -208,29 +231,11 @@
     <!-- Footer -->
     <footer>
         <div class="footer-container">
-            <div class="footer-col">
-                <img src="Logo.png" alt="Masterspray Logo" class="footer-logo">
-                <p>Masterspray Panelbeaters – Quality repairs and professional spray painting with over 30 years of excellence.</p>
-            </div>
-            <div class="footer-col">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Get a Quote</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h3>Contact</h3>
-                <p>New Castle Street, Northern Industrial, Windhoek</p>
-                <p>+264 61 215 786</p>
-                <p>masterspray@iway.na</p>
-            </div>
+            <div class="footer-col"><img src="Logo.png" alt="Masterspray Logo" class="footer-logo"><p>Premium panelbeating and spray painting in Namibia since 1994.</p></div>
+            <div class="footer-col"><h3>Links</h3><ul><li><a href="#">Home</a></li><li><a href="#services">Services</a></li><li><a href="#about">About</a></li><li><a href="#faq">FAQ</a></li></ul></div>
+            <div class="footer-col"><h3>Contact</h3><p>New Castle Street, Windhoek</p><p>+264 61 215 786</p></div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2023 Masterspray Panelbeaters. All Rights Reserved.</p>
-        </div>
+        <div class="footer-bottom"><p>&copy; 2023 Masterspray Panelbeaters. All Rights Reserved.</p></div>
     </footer>
 
 </body>
